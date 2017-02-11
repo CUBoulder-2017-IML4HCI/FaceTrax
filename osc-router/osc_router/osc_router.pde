@@ -1,4 +1,6 @@
 /**
+Simple processing code for listening for multiple OSC messages,
+combinging them, and sending a digest out as another OSC message.
 **/
 
 import controlP5.*;
