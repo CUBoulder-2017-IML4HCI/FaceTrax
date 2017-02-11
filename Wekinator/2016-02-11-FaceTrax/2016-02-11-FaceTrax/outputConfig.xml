@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<OSCOutputGroup>
+  <oscMessage>/wek/outputs</oscMessage>
+  <hostName>localhost</hostName>
+  <outputPort>12000</outputPort>
+  <outputs class="linked-list">
+    <wekimini.osc.OSCNumericOutput>
+      <name>Linearity</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>HARD</limitType>
+      <trainingDataLimitRestriction>ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Close to Cam</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>HARD</limitType>
+      <trainingDataLimitRestriction>ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Close to Other Face</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>HARD</limitType>
+      <trainingDataLimitRestriction>ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCClassificationOutput>
+      <name>Smile</name>
+      <numClasses>2</numClasses>
+      <isSendingDistribution>false</isSendingDistribution>
+    </wekimini.osc.OSCClassificationOutput>
+  </outputs>
+</OSCOutputGroup>
