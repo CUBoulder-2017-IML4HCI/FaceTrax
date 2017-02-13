@@ -8,7 +8,7 @@ Stan James
 Monica Lynn Bolles
 Cicada Scott
 
-![Image of FaceTrax in action](http://wanderingstan.com/drop/FaceTrax.gif)
+![Image of FaceTrax in action](http://wanderingstan.com/drop/FaceTrax.png)
 
 
 Note: Face Detection OSX app is included as a submodule, taken from public Github repo here:
